@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Order Detail</title>
+</head>
+
+<body>
+    <!-- mulai navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light  box-shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-12 " type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav mr-auto ml-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cinemas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Buy Ticket</a>
+                    </li>
+                </ul>
+                <div class="dropdown ml-auto mr-auto">
+                    <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Location
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Jakarta</a>
+                        <a class="dropdown-item" href="#">Bandung</a>
+                        <a class="dropdown-item" href="#">Karawang</a>
+                    </div>
+                </div>
+                <span class="fa fa-search mr-auto" id="search"></span>
+                <img src="./assets/img/user.png" style="width: 5%; height:5%">
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- Mulai change movie -->
+    <header class="change-movie">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="text-change-movie">Spider-Man: Homecoming</p>
+                </div>
+                <div class="col-lg-6">
+                    <a href="index.html" class="btn btn-change-movie">Change Movie</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Akhir Movie -->
+
+
+    <main class="choose-seat">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <p class="text-title-order">Choose Your Seat</p>
+                    <div class="card-choose-seat">
+                        <img class="card-img-seat" src="./assets/img/seat1.PNG">
+                    </div>
+                    <a href="index.html" class="btn btn-change-order">Change your movie</a>
+                    <a href="payment.html" class="btn btn-checkout">Checkout now</a>
+                </div>
+                <div class="col-lg-4">
+                    <p class="text-title-order">Order Info</p>
+                    <div class="card-choose-seat1">
+                        <img class="card-img-order" src="./assets/img/infoOrder.png">
+                        <p class="title-pay">CineOne21 Cinema</p>
+                        <div class="order-info">
+                            <div class="sub-order-info">
+                                <p class="title-order">Movie selected</p>
+                                <p class="title-order">Tuesday, 07 July 2020</p>
+                                <p class="title-order">One ticket price</p>
+                                <p class="title-order">Seat choosed</p>
+                            </div>
+                            <div class="sub-order-info">
+                                <p class="sub-title-order">Spider-Man: Homecoming</p>
+                                <p class="sub-title-order">02:00pm</p>
+                                <p class="sub-title-order">$10</p>
+                                <p class="sub-title-order">C4, C5, C6</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="pay">
+                            <p class="title-pay-order">Total Payment</p>
+                            <p class="sub-title-pay">$30</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Mulai Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="./assets/img/logo2.png">
+                    <p class="text-footer">Stop waiting in line. Buy tickets
+                        <br>conveniently, watch movies quietly.</p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-title">Explore</p>
+                    <p class="text-footer1">Cinemas</p>
+                    <p class="text-footer1">Movies List</p>
+                    <p class="text-footer1">My Ticket</p>
+                    <p class="text-footer1">Notification</p>
+                </div>
+                <div class="col-lg-3">
+                    <p class="text-title">Our Sponsor</p>
+                    <img class="img-footer" src="./assets/img/sponsor.png">
+                    <img class="img-footer" src="./assets/img/sponsor1.png">
+                    <img class="img-footer" src="./assets/img/sponsor2.png">
+                </div>
+                <div class="col-lg-3">
+                    <p class="text-title">Follow Us</p>
+                    <p class="text-footer2"><i class="fab fa-facebook-square" style="color:blue"></i> Tickitz Cinema id
+                    </p>
+                    <p class="text-footer2"><i class="fab fa-instagram " style="color:rgb(184, 104, 1)"></i> tickitz.id
+                    </p>
+                    <p class="text-footer2"><i class="fab fa-twitter" style="color:skyblue"></i> tickitz.id</p>
+                    <p class="text-footer2"><i class="fab fa-youtube " style="color:red"></i> Tickitz Cinema id</p>
+                </div>
+            </div>
+            <p class="text-footer1" style="text-align: center; padding-top: 30px;">© 2020 Tickitz. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

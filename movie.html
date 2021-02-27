@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/movie.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Detail</title>
+</head>
+
+<body>
+    <!-- mulai navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light  box-shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-12 " type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav mr-auto ml-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cinemas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Buy Ticket</a>
+                    </li>
+                </ul>
+                <div class="dropdown ml-auto mr-auto">
+                    <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Location
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Jakarta</a>
+                        <a class="dropdown-item" href="#">Bandung</a>
+                        <a class="dropdown-item" href="#">Karawang</a>
+                    </div>
+                </div>
+                <span class="fa fa-search mr-auto" id="search"></span>
+                <img src="./assets/img/user.png" style="width: 5%; height:5%">
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- Mulai Jumbotron -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card-jumbotron" style="width: 332px;">
+                        <div class="container">
+                            <img class="card-img-jumbotron" src="./assets/img/spider1.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="title-jumbotron">Spider-Man: Homecoming</h2>
+                    <p class="sub-title-jumbotron">Adventure, Action, Sci-Fi</p>
+                    <div class="detail-jumbotron">
+                        <div class="sub-detail-jumbotron">
+                            <p class="sub-title-title">Release date</p>
+                            <p class="sub-title-sub-title">June 28, 2017</p>
+                            <p class="sub-title-title">Duration</p>
+                            <p class="sub-title-sub-title">2 hours 13 minutes </p>
+                        </div>
+                        <div class="sub-detail-jumbotron">
+                            <p class="sub-title-title">Directed by</p>
+                            <p class="sub-title-sub-title">Jon Watss</p>
+                            <p class="sub-title-title">Casts</p>
+                            <p class="sub-title-sub-title">Tom Holland, Michael Keaton, Robert Downey Jr., ...</p>
+                        </div>
+                    </div>
+                    <hr style="border: 1px solid #DEDEDE;">
+                    <p class="sub-title-title-title">Synopsis</p>
+                    <p class="sub-title-sub-title" style="color: #4E4B66;">Thrilled by his experience with the Avengers,
+                        Peter returns home, where he lives with his Aunt
+                        May, under the watchful eye of his new mentor Tony Stark, Peter tries to fall back into his
+                        normal daily routine - distracted by thoughts of proving himself to be more than just your
+                        friendly neighborhood Spider-Man - but when the Vulture emerges as a new villain, everything
+                        that Peter holds most important will be threatened. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- Mulai Showtimes -->
+    <section id="showTimes">
+        <div class="container">
+            <p class="title-show">Showtimes and Tickets</p>
+            <div class="dropdown-show">
+                <div class="dropdown-showTimes">
+                    <p><i class="fab fa fa-calendar" style="color: #4E4B66; padding-right: 20px;"></i>
+                        21/07/20
+                        <i class="fab fa fa-angle-down" style="padding-left: 60px;"> </i>
+                    </p>
+                </div>
+                <div class=" dropdown-showTimes">
+                    <p><i class="fab fas fa-map-marker-alt" style="color: #4E4B66; padding-right: 20px;"></i>
+                        Purwokerto
+                        <i class="fab fa fa-angle-down" style="padding-left: 40px;"> </i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir ShowTimes -->
+
+    <!-- Mulai Jadwal -->
+    <main id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="card-schedule">
+                    <div class="title-schedule">
+                        <div class="title-img">
+                            <img class="card-img-schedule" src="./assets/img/cardSchedule.png">
+                        </div>
+                        <div class="sub-title-schedule">
+                            <p class="title">ebv.id</p>
+                            <p class="sub-title">Whatever street No.12, South Purwokerto</p>
+                        </div>
+                    </div>
+                    <hr style="border: 0.5px solid #DEDEDE;">
+                    <div class="detail-date">
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">08:30am</p>
+                            <p class="title-date" style="color: #6E7191;">04:30pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #6E7191;">10:30pm</p>
+                            <p class="title-date" style="color: #A0A3BD;">07:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #A0A3BD;">12:00pm</p>
+                            <p class="title-date" style="color: #6E7191;">08:30pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #6E7191;">02:00pm</p>
+                        </div>
+                    </div>
+                    <div class="detail-price">
+                        <div class="sub-detail-price">
+                            <p class="text-price">Price</p>
+                        </div>
+                        <div class="sub-detail-price">
+                            <p class="text-price1">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="detail-booking">
+                        <a href="order.html" class="btn btn-schedule">Book Now</a>
+                        <p class="text-booking">Add to cart</p>
+                    </div>
+                </div>
+                <div class="card-schedule-special">
+                    <div class="title-schedule">
+                        <div class="title-img">
+                            <img class="card-img-schedule" src="./assets/img/cardSchedule1.png">
+                        </div>
+                        <div class="sub-title-schedule">
+                            <p class="title">CineOne21</p>
+                            <p class="sub-title">Downcare street No. 21,
+                                East Purwokerto</p>
+                        </div>
+                    </div>
+                    <div class="detail-date" style="padding-top:32px ;">
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #A0A3BD;">08:30am</p>
+                            <p class="title-date" style="color:#4E4B66;">04:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">10:00am</p>
+                            <p class="title-date" style="color: #4E4B66;">06:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">12:00pm</p>
+                            <p class="title-date" style="color: #A0A3BD;">08:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #5F2EEA;">02:00pm</p>
+                        </div>
+                    </div>
+                    <div class="detail-price">
+                        <div class="sub-detail-price">
+                            <p class="text-price">Price</p>
+                        </div>
+                        <div class="sub-detail-price">
+                            <p class="text-price1">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="detail-booking">
+                        <a href="order.html" class="btn btn-schedule">Book Now</a>
+                        <p class="text-booking">Add to cart</p>
+                    </div>
+                </div>
+                <div class="card-schedule">
+                    <div class="title-schedule">
+                        <div class="title-img">
+                            <img class="card-img-schedule" src="./assets/img/cardSchedule2.png">
+                        </div>
+                        <div class="sub-title-schedule">
+                            <p class="title">hiflix Cinema</p>
+                            <p class="sub-title">Colonel street No. 2, East Purwokerto</p>
+                        </div>
+                    </div>
+                    <hr style="border: 0.5px solid #DEDEDE;">
+                    <div class="detail-date">
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">08:30am</p>
+                            <p class="title-date" style="color: #4E4B66;">04:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">10:00am</p>
+                            <p class="title-date" style="color: #A0A3BD;">06:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">12:00pm</p>
+                            <p class="title-date" style="color: #4E4B66;">08:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #A0A3BD;">02:00pm</p>
+                        </div>
+                    </div>
+                    <div class="detail-price">
+                        <div class="sub-detail-price">
+                            <p class="text-price">Price</p>
+                        </div>
+                        <div class="sub-detail-price">
+                            <p class="text-price1">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="detail-booking">
+                        <a href="order.html" class="btn btn-schedule">Book Now</a>
+                        <p class="text-booking">Add to cart</p>
+                    </div>
+                </div>
+                <div class="card-schedule">
+                    <div class="title-schedule">
+                        <div class="title-img">
+                            <img class="card-img-schedule" src="./assets/img/cardSchedule.png">
+                        </div>
+                        <div class="sub-title-schedule">
+                            <p class="title">ebv.id</p>
+                            <p class="sub-title">Whatever street No.12, South Purwokerto</p>
+                        </div>
+                    </div>
+                    <hr style="border: 0.5px solid #DEDEDE;">
+                    <div class="detail-date">
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">08:30am</p>
+                            <p class="title-date" style="color: #4E4B66;">04:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">10:00am</p>
+                            <p class="title-date" style="color: #A0A3BD;">06:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #A0A3BD;">12:00pm</p>
+                            <p class="title-date" style="color: #4E4B66;">08:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">02:00pm</p>
+                        </div>
+                    </div>
+                    <div class="detail-price">
+                        <div class="sub-detail-price">
+                            <p class="text-price">Price</p>
+                        </div>
+                        <div class="sub-detail-price">
+                            <p class="text-price1">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="detail-booking">
+                        <a href="order.html" class="btn btn-schedule">Book Now</a>
+                        <p class="text-booking">Add to cart</p>
+                    </div>
+                </div>
+                <div class="card-schedule">
+                    <div class="title-schedule">
+                        <div class="title-img">
+                            <img class="card-img-schedule" src="./assets/img/cardSchedule1.png">
+                        </div>
+                        <div class="sub-title-schedule">
+                            <p class="title">CineOne21</p>
+                            <p class="sub-title">Downcare street No. 21, East Purwokerto</p>
+                        </div>
+                    </div>
+                    <hr style="border: 0.5px solid #DEDEDE;">
+                    <div class="detail-date">
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #A0A3BD;">08:30am</p>
+                            <p class="title-date" style="color: #4E4B66;">04:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">10:00am</p>
+                            <p class="title-date" style="color: #4E4B66;">06:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">12:00pm</p>
+                            <p class="title-date" style="color: #A0A3BD;">08:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">02:00pm</p>
+                        </div>
+                    </div>
+                    <div class="detail-price">
+                        <div class="sub-detail-price">
+                            <p class="text-price">Price</p>
+                        </div>
+                        <div class="sub-detail-price">
+                            <p class="text-price1">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="detail-booking">
+                        <a href="order.html" class="btn btn-schedule">Book Now</a>
+                        <p class="text-booking">Add to cart</p>
+                    </div>
+                </div>
+                <div class="card-schedule">
+                    <div class="title-schedule">
+                        <div class="title-img">
+                            <img class="card-img-schedule" src="./assets/img/cardSchedule2.png">
+                        </div>
+                        <div class="sub-title-schedule">
+                            <p class="title">hiflix Cinema</p>
+                            <p class="sub-title">Colonel street No. 2, East
+                                Purwokerto</p>
+                        </div>
+                    </div>
+                    <hr style="border: 0.5px solid #DEDEDE;">
+                    <div class="detail-date">
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">08:30am</p>
+                            <p class="title-date" style="color: #4E4B66;">04:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">10:00am</p>
+                            <p class="title-date" style="color: #A0A3BD;">06:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #4E4B66;">12:00pm</p>
+                            <p class="title-date" style="color: #4E4B66;">08:00pm</p>
+                        </div>
+                        <div class="sub-detail-date">
+                            <p class="title-date" style="color: #A0A3BD;">02:00pm</p>
+                        </div>
+                    </div>
+                    <div class="detail-price">
+                        <div class="sub-detail-price">
+                            <p class="text-price">Price</p>
+                        </div>
+                        <div class="sub-detail-price">
+                            <p class="text-price1">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="detail-booking">
+                        <a href="order.html" class="btn btn-schedule">Book Now</a>
+                        <p class="text-booking">Add to cart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="line-schedule">
+                <hr>
+                <p class="text-schedule">view more</p>
+                <hr>
+            </div>
+        </div>
+    </main>
+    <!-- Akhir Jadwal -->
+
+
+
+    <!-- Mulai Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="./assets/img/logo2.png">
+                    <p class="text-footer">Stop waiting in line. Buy tickets
+                        <br>conveniently, watch movies quietly.</p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-title">Explore</p>
+                    <p class="text-footer1">Cinemas</p>
+                    <p class="text-footer1">Movies List</p>
+                    <p class="text-footer1">My Ticket</p>
+                    <p class="text-footer1">Notification</p>
+                </div>
+                <div class="col-lg-3">
+                    <p class="text-title">Our Sponsor</p>
+                    <img class="img-footer" src="./assets/img/sponsor.png">
+                    <img class="img-footer" src="./assets/img/sponsor1.png">
+                    <img class="img-footer" src="./assets/img/sponsor2.png">
+                </div>
+                <div class="col-lg-3">
+                    <p class="text-title">Follow Us</p>
+                    <p class="text-footer2"><i class="fab fa-facebook-square" style="color:blue"></i> Tickitz Cinema id
+                    </p>
+                    <p class="text-footer2"><i class="fab fa-instagram " style="color:rgb(184, 104, 1)"></i> tickitz.id
+                    </p>
+                    <p class="text-footer2"><i class="fab fa-twitter" style="color:skyblue"></i> tickitz.id</p>
+                    <p class="text-footer2"><i class="fab fa-youtube " style="color:red"></i> Tickitz Cinema id</p>
+                </div>
+            </div>
+            <p class="text-footer1" style="text-align: center; padding-top: 30px;">© 2020 Tickitz. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

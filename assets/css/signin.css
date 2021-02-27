@@ -1,0 +1,240 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    height: 673px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+main section {
+    flex-grow: 2;
+    background: linear-gradient(rgba(43, 21, 107, 0.8),
+            rgba(43, 21, 107, 0.8)), url('/assets/img/imgbg.jpg') no-repeat;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+
+    /* background: 
+				linear-gradient(
+				  rgba(13, 110, 255, 0.7),
+				  rgba(255, 212, 14, 0.7)
+				),
+			    url('imgbg.jpg') no-repeat;
+			background-size: cover; */
+
+}
+
+
+section .img1 {
+    padding-top: 250px;
+    padding-left: 100px;
+    opacity: 0.9;
+}
+
+section .text1 {
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 20px;
+    letter-spacing: 0.003em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* mulai aside */
+main aside {
+    flex-grow: 1;
+    padding: 100px 50px;
+}
+
+aside .img2 {
+    display: none;
+}
+
+aside h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 10px;
+    letter-spacing: 0.003em;
+    color: #121212;
+}
+
+aside p.text2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 10px;
+    letter-spacing: 0.007em;
+    color: #AAAAAA;
+    padding-bottom: 20px;
+}
+
+aside p.text3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #8692A6;
+}
+
+aside .or {
+    display: flex;
+}
+
+aside p.text4 {
+    flex-grow: 1;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.005em;
+    color: #AAAAAA;
+}
+
+aside hr {
+    flex-grow: 1;
+    border: 1px solid#DEDEDE;
+}
+
+aside div.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.005em;
+    color: #A0A3BD;
+}
+
+aside div.btn-google {
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    margin-right: 20px;
+}
+
+aside div.btn-google img {
+    padding-right: 20px;
+}
+
+
+aside div.btn-fb {
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+}
+
+aside div.btn-fb img {
+    padding-right: 20px;
+}
+
+.form-group .form-control {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.form-group .form-control-icon {
+    position: absolute;
+    margin-top: 31px;
+    margin-left: 460px;
+    z-index: 2;
+    display: block;
+    /* ukuran icon */
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #4E4B66;
+}
+
+
+
+label {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4E4B66;
+
+}
+
+input {
+    background: #FCFDFE;
+    /* Border and Line */
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 0.5rem;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+
+#btn-submit {
+    font-family: Mulish;
+    color: #F7F7FC;
+    font-style: normal;
+    font-weight: bold;
+    background: #5F2EEA;
+
+    margin-top: 20px;
+}
+
+#btn-submit::after {}
+
+
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+    main section {
+        display: none;
+    }
+
+    aside .img2 {
+        display: inline;
+
+    }
+
+    aside h2 {
+        /* text-align: center; */
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 33px;
+        /* identical to box height */
+
+        letter-spacing: 0.005em;
+
+        color: #121212;
+    }
+
+    aside .text2 {
+        display: none;
+    }
+}

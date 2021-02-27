@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Payment</title>
+</head>
+
+<body>
+    <!-- mulai navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light  box-shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-12 " type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav mr-auto ml-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cinemas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Buy Ticket</a>
+                    </li>
+                </ul>
+                <div class="dropdown ml-auto mr-auto">
+                    <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Location
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Jakarta</a>
+                        <a class="dropdown-item" href="#">Bandung</a>
+                        <a class="dropdown-item" href="#">Karawang</a>
+                    </div>
+                </div>
+                <span class="fa fa-search mr-auto" id="search"></span>
+                <img src="./assets/img/user.png" style="width: 5%; height:5%">
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- payment info -->
+    <main class="payment-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <p class="text-title-info">Payment Info</p>
+                    <div class="card-choose-info">
+                        <div class="container">
+                            <div class="order-info">
+                                <div class="sub-order-info">
+                                    <p class="title-order-info">Date & time</p>
+                                    <hr style="border: 1px solid #E6E6E6;">
+                                    <p class="title-order-info">Movie title</p>
+                                    <hr style="border: 1px solid #E6E6E6;">
+                                    <p class="title-order-info">Cinema name</p>
+                                    <hr style="border: 1px solid #E6E6E6;">
+                                    <p class="title-order-info">Number of tickets</p>
+                                    <hr style="border: 1px solid #E6E6E6;">
+                                    <p class="title-order-info">Total payment</p>
+                                </div>
+                                <div class="sub-order-info">
+                                    <p class="sub-title-order-info">Tuesday, 07 July 2020 at 02:00pm</p>
+                                    <hr style="border: 1px solid #E6E6E6;">
+                                    <p class="sub-title-order-info">Spider-Man: Homecoming</p>
+                                    <hr style="border: 1px solid #E6E6E6;">
+                                    <p class="sub-title-order-info">CineOne21 Cinema</p>
+                                    <hr style="border: 1px solid #E6E6E6;">
+                                    <p class="sub-title-order-info">3 pieces</p>
+                                    <hr style="border: 1px solid #E6E6E6;">
+                                    <p class="sub-title-order-info"
+                                        style="font-weight: 600;font-size: 24px;line-height: 30px;">$30,00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-title-info">Choose a Payment Method</p>
+                    <div class="card-choose-info1">
+                        <div class="logo-payment-card">
+                            <div class="card-logo">
+                                <div class="card-payment" style="padding-left:35px; padding-top: 11px;">
+                                    <img class="card-img-logo" src="./assets/img/google_pay.png">
+                                </div>
+                                <div class="card-payment" style="padding-left: 16px; padding-top: 8px;">
+                                    <img class=" card-img-logo" src="./assets/img/LogoDANA.png">
+                                </div>
+                            </div>
+                            <div class="card-logo">
+                                <div class="card-payment" style="padding-left: 30px; padding-top: 11px;">
+                                    <img class="card-img-logo" src="./assets/img/logo_visa.png">
+                                </div>
+                                <div class="card-payment" style="padding-left: 30px; padding-top: 10px;">
+                                    <img class="card-img-logo" src="./assets/img/Bank_BCA.png">
+                                </div>
+                            </div>
+                            <div class="card-logo">
+                                <div class="card-payment" style="padding-left: 20px; padding-top: 10px;">
+                                    <img class="card-img-logo" src="./assets/img/GoPay.png">
+                                </div>
+                                <div class="card-payment" style="padding-left: 49px; padding-top: 8px;">
+                                    <img class="card-img-logo" src="./assets/img/Bank_BRI.png">
+                                </div>
+                            </div>
+                            <div class="card-logo">
+                                <div class="card-payment" style="padding-left: 52px; padding-top: 8px;">
+                                    <img class="card-img-logo" src="./assets/img/logos_paypal.png">
+                                </div>
+                                <div class="card-payment" style="padding-left: 25px; padding-top: 10px;">
+                                    <img class="card-img-logo" src="./assets/img/ovo.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="or">
+                            <hr style="margin-left: 30px;">
+                            <p class="text-or">or</p>
+                            <hr style="margin-right: 22px;">
+                        </div>
+                        <p class="sub-text-or">Pay via cash.<span>See how it work</span> </p>
+                    </div>
+                    <a href="#" class="btn btn-before">Previous step</a>
+                    <a href="#" class="btn btn-next">Pay your order</a>
+                </div>
+                <div class="col-lg-4">
+                    <p class="text-title-info">Personal Info</p>
+                    <div class="card-choose-info2">
+                        <div class="container">
+                            <form>
+                                <label>Fullname</label><br>
+                                <input placeholder="Jonas El Rodriguez"><br>
+                                <label>Email</label><br>
+                                <input placeholder="jonasrodri123@gmail.com"><br>
+                                <label>Phone Number</label><br>
+                                <input placeholder="+6281445687121"><br>
+
+                                <div class="form-group">
+                                    <span class="fa fa-exclamation-triangle form-control-icon"
+                                        style="color: #F4B740; "></span>
+                                    <input class="form-control" placeholder="Fill your data correctly.">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <!-- Mulai Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="./assets/img/logo2.png">
+                    <p class="text-footer">Stop waiting in line. Buy tickets
+                        <br>conveniently, watch movies quietly.</p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-title">Explore</p>
+                    <p class="text-footer1">Cinemas</p>
+                    <p class="text-footer1">Movies List</p>
+                    <p class="text-footer1">My Ticket</p>
+                    <p class="text-footer1">Notification</p>
+                </div>
+                <div class="col-lg-3">
+                    <p class="text-title">Our Sponsor</p>
+                    <img class="img-footer" src="./assets/img/sponsor.png">
+                    <img class="img-footer" src="./assets/img/sponsor1.png">
+                    <img class="img-footer" src="./assets/img/sponsor2.png">
+                </div>
+                <div class="col-lg-3">
+                    <p class="text-title">Follow Us</p>
+                    <p class="text-footer2"><i class="fab fa-facebook-square" style="color:blue"></i> Tickitz Cinema id
+                    </p>
+                    <p class="text-footer2"><i class="fab fa-instagram " style="color:rgb(184, 104, 1)"></i> tickitz.id
+                    </p>
+                    <p class="text-footer2"><i class="fab fa-twitter" style="color:skyblue"></i> tickitz.id</p>
+                    <p class="text-footer2"><i class="fab fa-youtube " style="color:red"></i> Tickitz Cinema id</p>
+                </div>
+            </div>
+            <p class="text-footer1" style="text-align: center; padding-top: 30px;">© 2020 Tickitz. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
