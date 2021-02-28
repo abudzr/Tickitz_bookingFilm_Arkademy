@@ -61,6 +61,17 @@ nav {
     color: #14142B;
 }
 
+.text-title-info-1 {
+    padding-top: 50px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    color: #14142B;
+}
+
 .card-choose-info {
     width: 720px;
     height: 413px;
@@ -129,10 +140,19 @@ nav {
     display: flex;
     padding-top: 80px;
     padding-left: 80px;
-
 }
 
 .title-order-info {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    color: #6B6B6B;
+}
+
+.title-order-info-total {
 
     font-family: Mulish;
     font-style: normal;
@@ -157,6 +177,19 @@ nav {
     color: #000000;
 }
 
+.sub-title-order-info-total {
+    padding-left: 100px;
+
+    text-align: right;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+
 .logo-payment-card {
     display: flex;
 }
@@ -165,7 +198,25 @@ nav {
     padding-top: 70px;
 }
 
+.card-logo-1 {
+    padding-top: 70px;
+}
+
 .card-payment {
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 16px;
+    height: 56px;
+    width: 146px;
+}
+
+.card-payment1 {
+    padding-top: 10px;
+    text-align: center;
     margin-left: 30px;
     margin-bottom: 30px;
     border: 2px solid #DEDEDE;
@@ -308,12 +359,27 @@ footer {
     color: #6E7191;
 }
 
+.text-footer3 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #4E4B66;
+}
+
 .img-footer {
     padding-bottom: 30px;
 }
 
 
-@media only screen and (max-width: 768px) {
+
+
+
+@media only screen and (max-width: 600px) {
     .form-inline {
         display: inline;
     }
@@ -323,7 +389,343 @@ footer {
     }
 
     .nav-item a {
-        margin-right: 10px;
+        margin-left: -40px;
     }
 
+    .img-user {
+        display: none;
+    }
+
+
+    /* payment-mobile */
+    .payment-info {
+        height: 1250px;
+        background: #F5F6F8;
+        padding-top: 80px;
+    }
+
+    .text-title-info {
+        padding-top: 50px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        color: #14142B;
+    }
+
+    .text-title-info-1 {
+        display: none;
+    }
+
+    .card-choose-info {
+        height: 64px;
+        width: 100%;
+        box-shadow: 0px 4px 16px rgba(186, 186, 186, 0.08);
+        border-radius: 0px 0px 16px 16px;
+    }
+
+    .card-choose-info .title-order-info {
+        display: none;
+    }
+
+    .card-choose-info .sub-title-order-info {
+        display: none;
+    }
+
+    .card-choose-info hr {
+        display: none;
+    }
+
+    .title-order-info-total {
+        text-align: left;
+        margin-top: -60px;
+        margin-left: -75px;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        color: #AAAAAA;
+    }
+
+    .sub-title-order-info-total {
+        margin-top: -60px;
+        margin-left: 75px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.75px;
+        color: #14142B;
+    }
+
+
+
+    .card-choose-info1 {
+        margin-left: auto;
+        margin-right: auto;
+        height: 242px;
+        width: 327px;
+        border-radius: 16px;
+        background: #FFFFFF;
+    }
+
+
+    .card-logo {
+        margin-top: -50px;
+        margin-left: 10px;
+    }
+
+    .card-logo-1 {
+        display: flex;
+        margin-top: 12px;
+        margin-left: -190px;
+    }
+
+
+    .card-img-logo {
+        width: 50%;
+
+    }
+
+    .card-payment {
+        padding-top: 10px;
+        text-align: center;
+        border: 0.5px solid #DEDEDE;
+        box-sizing: border-box;
+        border-radius: 8px;
+        height: 32px;
+        width: 80px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+    .card-payment1 {
+        display: none;
+    }
+
+
+
+
+
+
+    .or {
+        display: flex;
+    }
+
+    .or hr {
+        flex-grow: 2;
+        border: 1px solid #DEDEDE;
+        transform: rotate(180deg);
+    }
+
+    .text-or {
+        flex-grow: 1;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: #A0A3BD;
+    }
+
+    .sub-text-or {
+        text-align: center;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        color: #6E7191;
+    }
+
+    .sub-text-or span {
+        color: #5F2EEA;
+    }
+
+
+
+
+
+
+
+
+
+    .card-choose-info2 {
+        display: none;
+        /* height: 548px;
+        width: 345px;
+        border-radius: 16px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 8px 24px rgba(17, 17, 17, 0.08);
+        border-radius: 16px; */
+    }
+
+    .btn-before {
+        display: none;
+    }
+
+    .btn-next {
+        margin-top: 30px;
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 56px;
+        width: 327px;
+    }
+
+    /* 
+    .order-info {
+        display: flex;
+        padding-top: 80px;
+        padding-left: 80px;
+    }
+
+    .title-order-info {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.25px;
+        color: #6B6B6B;
+    }
+
+    
+
+    .sub-title-order-info {
+        padding-left: 100px;
+
+        text-align: right;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.25px;
+        color: #000000;
+    }
+
+
+
+    label {
+        margin-top: 35px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        color: #696F79;
+    }
+
+    input {
+        width: 100%;
+        padding: 1em;
+        margin-bottom: 0.5rem;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        border-radius: 16px;
+    }
+
+    .form-group .form-control {
+        width: 100%;
+        padding: 1em;
+        margin-top: 30px;
+        padding-left: 2.375rem;
+        background: rgba(244, 183, 64, 0.3);
+        box-sizing: border-box;
+        border-radius: 16px;
+    }
+
+    .form-group .form-control-icon {
+        position: absolute;
+        margin-top: 8px;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #4E4B66;
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer */
+    footer {
+        height: 400px;
+        margin-top: 80px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .text-title {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        color: #000000;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .text-footer {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        color: #6E7191;
+    }
+
+    .explore {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .text-footer1 {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.75px;
+        color: #6E7191;
+    }
+
+    .text-footer3 {
+        text-align: left;
+    }
+
+    .img-footer {
+        padding-right: 20px;
+        padding-bottom: 30px;
+        width: 30%;
+    }
 }
