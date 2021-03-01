@@ -8,10 +8,6 @@ nav {
     background: white;
 }
 
-/* .navbar-toggler-icon {
-    background: url(/assets/img/Group.png);
-} */
-
 #btn-signUp {
     background: #5F2EEA;
     border-radius: 8px;
@@ -105,6 +101,19 @@ nav {
     color: #14142B;
 }
 
+.text-title-order1 {
+    padding-top: 50px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: #14142B;
+}
+
 .card-choose-seat {
     width: 720px;
     height: 661px;
@@ -122,6 +131,46 @@ nav {
     box-shadow: 0px 8px 24px rgba(17, 17, 17, 0.08);
     border-radius: 16px;
 }
+
+.card-choose-seat2 {
+    display: none;
+}
+
+.card-choose-seat3 {
+    height: 58px;
+    width: 327px;
+    left: 24px;
+    top: 629px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.card-choose-seat4 {
+    height: 88px;
+    width: 327px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(17, 17, 17, 0.08);
+    border-radius: 16px;
+}
+
+.btn-choose-seat {
+    height: 56px;
+    width: 120px;
+    border-radius: 8px;
+    background: #EFF0F7;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #14142B;
+    border: 1px;
+}
+
 
 .card-img-seat {
     padding-top: 120px;
@@ -173,6 +222,10 @@ nav {
     text-align: center;
     letter-spacing: 0.75px;
     color: #F7F7FC;
+}
+
+.add-new-seat {
+    display: none;
 }
 
 .order-info {
@@ -313,6 +366,7 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
+
     .form-inline {
         display: inline;
     }
@@ -333,13 +387,34 @@ footer {
         display: none;
     }
 
+    .change-btn {
+        display: none;
+    }
+
+    .add-new-seat {
+        display: inline-block;
+        height: 56px;
+        width: 327px;
+        border-radius: 16px;
+        margin-left: 20px;
+
+    }
+
+    .btn-checkout-now {
+        margin-left: 20px;
+        height: 56px;
+
+        width: 327px;
+        border-radius: 16px;
+    }
 
 
 
     .choose-seat {
         /* display: none; */
-        margin-top: 50px;
-        height: 1500px;
+
+        padding-top: 100px;
+        height: 1300px;
     }
 
     .card-choose-seat {
@@ -347,8 +422,11 @@ footer {
         width: 327px;
         margin-left: 30px;
         border-radius: 16px;
+        margin-bottom: 30px;
+    }
 
-
+    .card-choose-seat2 {
+        display: inline-block;
     }
 
     .card-img-seat {
@@ -368,11 +446,53 @@ footer {
         color: #14142B;
     }
 
-    .card-order-info {
+    .text-title-order1 {
         display: none;
     }
 
+    .card-choose-seat1 {
+        display: none;
+    }
 
+    .card-choose-seat3 {
+        margin-left: 30px;
+    }
+
+    .title-seat {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        color: #4E4B66;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .seat {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: right;
+        letter-spacing: 0.75px;
+        color: #000000;
+        padding-top: 15px;
+        padding-left: 120px;
+    }
+
+    .card-choose-seat4 {
+        margin-left: 30px;
+        margin-bottom: 15px;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    .btn-choose-seat {
+        margin-right: 20px;
+    }
 
 
 
