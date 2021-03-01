@@ -11,6 +11,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/order.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
     <title>Order Detail</title>
 </head>
 
@@ -23,7 +25,7 @@
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"> </span>
+                <span><img src="./assets/img/Group.png"> </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <form class="form-inline">
@@ -51,7 +53,7 @@
                     </div>
                 </div>
                 <span class="fa fa-search mr-auto" id="search"></span>
-                <img src="./assets/img/user.png" style="width: 5%; height:5%">
+                <img class="img-user" src="./assets/img/user.png" style="width: 5%; height:5%">
             </div>
         </div>
     </nav>
@@ -65,7 +67,7 @@
                     <p class="text-change-movie">Spider-Man: Homecoming</p>
                 </div>
                 <div class="col-lg-6">
-                    <a href="index.html" class="btn btn-change-movie">Change Movie</a>
+                    <a href="home.html" class="btn btn-change-movie">Change Movie</a>
                 </div>
             </div>
         </div>
@@ -76,15 +78,16 @@
     <main class="choose-seat">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-7 col-lg-8">
                     <p class="text-title-order">Choose Your Seat</p>
                     <div class="card-choose-seat">
                         <img class="card-img-seat" src="./assets/img/seat1.PNG">
+                        <img class="card-img-seat1" src="./assets/img/seat2.PNG">
                     </div>
-                    <a href="index.html" class="btn btn-change-order">Change your movie</a>
-                    <a href="payment.html" class="btn btn-checkout">Checkout now</a>
+                    <!-- <a href="index.html" class="btn btn-change-order">Change your movie</a>
+                    <a href="payment.html" class="btn btn-checkout">Checkout now</a> -->
                 </div>
-                <div class="col-lg-4">
+                <div class="card-order-info col-6 col-lg-4">
                     <p class="text-title-order">Order Info</p>
                     <div class="card-choose-seat1">
                         <img class="card-img-order" src="./assets/img/infoOrder.png">
@@ -111,7 +114,8 @@
                     </div>
                 </div>
             </div>
-
+            <a href="home.html" class="btn btn-change-order">Change your movie</a>
+            <a href="payment.html" class="btn btn-checkout">Checkout now</a>
         </div>
     </main>
 
@@ -126,10 +130,13 @@
                 </div>
                 <div class="col-lg-2">
                     <p class="text-title">Explore</p>
-                    <p class="text-footer1">Cinemas</p>
-                    <p class="text-footer1">Movies List</p>
-                    <p class="text-footer1">My Ticket</p>
-                    <p class="text-footer1">Notification</p>
+                    <div class="explore">
+                        <p class="text-footer1">Cinemas</p>
+                        <p class="text-footer1">Movies List</p>
+                        <p class="text-footer1">My Ticket</p>
+                        <p class="text-footer1">Notification</p>
+                    </div>
+
                 </div>
                 <div class="col-lg-3">
                     <p class="text-title">Our Sponsor</p>
@@ -147,7 +154,7 @@
                     <p class="text-footer2"><i class="fab fa-youtube " style="color:red"></i> Tickitz Cinema id</p>
                 </div>
             </div>
-            <p class="text-footer1" style="text-align: center; padding-top: 30px;">© 2020 Tickitz. All Rights Reserved.
+            <p class="text-footer3">© 2020 Tickitz. All Rights Reserved.
             </p>
         </div>
     </footer>

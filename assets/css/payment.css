@@ -101,6 +101,7 @@ nav {
 .btn-before {
     margin-top: 30px;
     margin-right: 110px;
+    margin-left: 20px;
     padding-top: 10px;
     border: 2px solid #5F2EEA;
     box-sizing: border-box;
@@ -139,7 +140,7 @@ nav {
 .order-info {
     display: flex;
     padding-top: 80px;
-    padding-left: 80px;
+    padding-left: 60px;
 }
 
 .title-order-info {
@@ -396,7 +397,6 @@ footer {
         display: none;
     }
 
-
     /* payment-mobile */
     .payment-info {
         height: 1250px;
@@ -440,7 +440,7 @@ footer {
         text-align: left;
         margin-top: -60px;
         margin-left: -75px;
-        font-size: 16px;
+        font-size: 13px;
         line-height: 28px;
         letter-spacing: 0.75px;
         color: #AAAAAA;
@@ -450,12 +450,11 @@ footer {
         margin-top: -60px;
         margin-left: 75px;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 32px;
         letter-spacing: 0.75px;
         color: #14142B;
     }
-
 
 
     .card-choose-info1 {
@@ -479,14 +478,16 @@ footer {
         margin-left: -190px;
     }
 
+    .card-logo-1 .card-img-logo {
+        width: 30%;
+    }
 
     .card-img-logo {
         width: 50%;
-
     }
 
     .card-payment {
-        padding-top: 10px;
+        padding-top: -100px;
         text-align: center;
         border: 0.5px solid #DEDEDE;
         box-sizing: border-box;
@@ -497,74 +498,34 @@ footer {
         margin-bottom: 30px;
     }
 
-
-
-
-
-
     .card-payment1 {
         display: none;
     }
 
-
-
-
-
-
-    .or {
-        display: flex;
-    }
-
-    .or hr {
-        flex-grow: 2;
-        border: 1px solid #DEDEDE;
-        transform: rotate(180deg);
-    }
-
-    .text-or {
-        flex-grow: 1;
-        font-family: Mulish;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 28px;
-        text-align: center;
-        letter-spacing: 0.75px;
-        color: #A0A3BD;
-    }
-
-    .sub-text-or {
-        text-align: center;
-        font-family: Mulish;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 28px;
-        letter-spacing: 0.75px;
-        color: #6E7191;
-    }
-
-    .sub-text-or span {
-        color: #5F2EEA;
-    }
-
-
-
-
-
-
-
-
-
     .card-choose-info2 {
-        display: none;
-        /* height: 548px;
-        width: 345px;
-        border-radius: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 440px;
+        width: 327px;
+    }
 
-        background: #FFFFFF;
-        box-shadow: 0px 8px 24px rgba(17, 17, 17, 0.08);
-        border-radius: 16px; */
+    label {
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.75px;
+        color: #696F79;
+    }
+
+    input {
+        padding: 0.8em;
+        margin-bottom: 0.5rem;
+        border-radius: 12px;
+    }
+
+    .form-group .form-control {
+        margin-top: 20px;
+        border-radius: 16px;
     }
 
     .btn-before {
@@ -572,110 +533,11 @@ footer {
     }
 
     .btn-next {
-        margin-top: 30px;
-        padding-top: 10px;
+        margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
-        height: 56px;
-        width: 327px;
+        padding-top: 10px;
     }
-
-    /* 
-    .order-info {
-        display: flex;
-        padding-top: 80px;
-        padding-left: 80px;
-    }
-
-    .title-order-info {
-        font-family: Mulish;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 25px;
-        letter-spacing: 0.25px;
-        color: #6B6B6B;
-    }
-
-    
-
-    .sub-title-order-info {
-        padding-left: 100px;
-
-        text-align: right;
-        font-family: Mulish;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 25px;
-        letter-spacing: 0.25px;
-        color: #000000;
-    }
-
-
-
-    label {
-        margin-top: 35px;
-        font-family: Mulish;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.25px;
-        color: #696F79;
-    }
-
-    input {
-        width: 100%;
-        padding: 1em;
-        margin-bottom: 0.5rem;
-        border: 1px solid #DEDEDE;
-        box-sizing: border-box;
-        border-radius: 16px;
-    }
-
-    .form-group .form-control {
-        width: 100%;
-        padding: 1em;
-        margin-top: 30px;
-        padding-left: 2.375rem;
-        background: rgba(244, 183, 64, 0.3);
-        box-sizing: border-box;
-        border-radius: 16px;
-    }
-
-    .form-group .form-control-icon {
-        position: absolute;
-        margin-top: 8px;
-        z-index: 2;
-        display: block;
-        width: 2.375rem;
-        height: 2.375rem;
-        line-height: 2.375rem;
-        text-align: center;
-        pointer-events: none;
-        color: #4E4B66;
-    } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     /* footer */
     footer {
@@ -721,6 +583,7 @@ footer {
 
     .text-footer3 {
         text-align: left;
+        padding-bottom: 20px;
     }
 
     .img-footer {

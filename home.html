@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="/assets/css/homepage.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+   <title>Home</title>
+</head>
+
+<body>
+   <!-- mulai navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light  box-shadow fixed-top">
+      <div class="container">
+         <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo.png">
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img src="./assets/img/Group.png"> </span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <form class="form-inline">
+               <input class="form-control mr-sm-12 " type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <ul class="navbar-nav mr-auto ml-5">
+               <li class="nav-item">
+                  <a class="nav-link" href="movie.html">Movies </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Cinemas</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Buy Ticket</a>
+               </li>
+            </ul>
+            <div class="dropdown ml-auto mr-auto">
+               <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Location
+               </a>
+               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Jakarta</a>
+                  <a class="dropdown-item" href="#">Bandung</a>
+                  <a class="dropdown-item" href="#">Karawang</a>
+               </div>
+            </div>
+            <span class="fa fa-search mr-auto" id="search"></span>
+            <a class="nav-link btn  text-white" id="btn-signUp" href="#">Sign Up</a>
+         </div>
+      </div>
+   </nav>
+   <!-- akhir navbar -->
+
+   <!-- Mulai Jumbotron -->
+   <div class="jumbotron">
+      <div class="container">
+         <div class="row">
+            <div class="col-7 col-lg-6 col-md-12">
+               <h2 class="home-title">Nearest Cinema, Newest Movie,
+                  <br><br><span class="font-primary">Find out now!</span>
+               </h2>
+            </div>
+            <div class="col-6 col-lg-6 home-img">
+               <div class="row flex-nowrap">
+                  <img src="./assets/img/jumbotron1.png" class="home-img1">
+                  <img src="./assets/img/jumbotron2.png" class="home-img2">
+                  <img src="./assets/img/jumbotron3.png" class="home-img3">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- akhir jumbotron -->
+
+   <!-- Mulai nosWhowing -->
+   <section id="nowShowing">
+      <div class="container">
+         <div class="row">
+            <div class="mr-auto">
+               <p>Now Showing</p>
+            </div>
+            <div class="ml-auto">
+               <a href="#">View All</a>
+            </div>
+         </div>
+         <div class="scrolling-nowShowing row flex-nowrap mt-4 pb-4 pt-2">
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/spider.png">
+               </div>
+            </div>
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/lion.png">
+               </div>
+            </div>
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/johnwick.png">
+               </div>
+            </div>
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/spider.png">
+               </div>
+            </div>
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/lion.png">
+               </div>
+            </div>
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/johnwick.png">
+               </div>
+            </div>
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/spider.png">
+               </div>
+            </div>
+         </div>
+
+
+         <!-- <div class="row">
+            <div class="card" style="width: 223px;">
+               <div class="container">
+                  <img class="card-img-top" src="./assets/img/spider.png">
+               </div>
+            </div>
+            <div class="card" style="width: 223px;">
+               <div class="container">
+                  <img class="card-img-top" src="./assets/img/lion.png">
+               </div>
+            </div>
+
+            <div class="card" style="width: 223px;">
+               <div class="container">
+                  <img class="card-img-top" src="./assets/img/johnwick.png">
+               </div>
+            </div>
+            <div class="card" style="width: 223px;">
+               <div class="container">
+                  <img class="card-img-top" src="./assets/img/spider.png">
+               </div>
+            </div>
+            <div class="card" style="width: 223px;">
+               <div class="container">
+                  <img class="card-img-top" src="./assets/img/lion.png">
+               </div>
+            </div>
+
+         </div> -->
+      </div>
+   </section>
+   <!-- Akhir nowShowing -->
+   <!-- Mulai UpComing -->
+   <section id="upComing">
+      <div class="container">
+         <div class="row">
+            <div class="mr-auto">
+               <p>Up Coming Movies</p>
+            </div>
+            <div class="ml-auto">
+               <a href="#">View All</a>
+            </div>
+         </div>
+         <div class="scrolling-wrapper row flex-nowrap mt-4 pb-4 pt-2">
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-custom ">September</button>
+            </div>
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-outline-custom">Oktober</button>
+            </div>
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-outline-custom">November</button>
+            </div>
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-outline-custom">Desember</button>
+            </div>
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-outline-custom">January</button>
+            </div>
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-outline-custom">February</button>
+            </div>
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-outline-custom">Maret</button>
+            </div>
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-outline-custom">April</button>
+            </div>
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-outline-custom ">May</button>
+            </div>
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-outline-custom">June</button>
+            </div>
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-outline-custom">July</button>
+            </div>
+            <div class="col-4 col-lg-2">
+               <button type="button" class="btn btn-outline-custom">August</button>
+            </div>
+         </div>
+
+
+         <div class="scrolling-wrapper row flex-nowrap mt-4 pb-4 pt-2">
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/Black.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">Black Widow</h5>
+                     <p class="card-text">Action, Adventure, Sci-Fi</p>
+                     <a href="#" class="btn btn-outline-custom-card">Detail</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/witches.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">The Witches</h5>
+                     <p class="card-text">Adventure,Comedy,Family</p>
+                     <a href="#" class="btn btn-outline-custom-card">Detail</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/tenet.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">Tenet</h5>
+                     <p class="card-text">Action, Sci-Fi</p>
+                     <a href="#" class="btn btn-outline-custom-card">Detail</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/Black.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">Black Widow</h5>
+                     <p class="card-text">Action, Adventure, Sci-Fi</p>
+                     <a href="#" class="btn btn-outline-custom-card">Detail</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/witches.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">The Witches</h5>
+                     <p class="card-text">Adventure,Comedy,Family</p>
+                     <a href="#" class="btn btn-outline-custom-card">Detail</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-7 col-lg-3">
+               <div class="card" style="width: 223px;">
+                  <img class="card-img-top" src="./assets/img/tenet.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">Tenet</h5>
+                     <p class="card-text">Action, Sci-Fi</p>
+                     <a href="#" class="btn btn-outline-custom-card">Detail</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- <div class="row">
+            <div class="card" style="width: 223px;">
+               <div class="container">
+                  <img class="card-img-top" src="./assets/img/Black.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">Black Widow</h5>
+                     <p class="card-text">Action, Adventure, Sci-Fi</p>
+                     <a href="#" class="btn btn-outline-custom-card">Detail</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card" style="width: 223px;">
+               <div class="container">
+                  <img class="card-img-top" src="./assets/img/witches.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">The Witches</h5>
+                     <p class="card-text">Adventure,Comedy,Family</p>
+                     <a href="#" class="btn btn-outline-custom-card">Detail</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card" style="width: 223px;">
+               <div class="container">
+                  <img class="card-img-top" src="./assets/img/tenet.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">Tenet</h5>
+                     <p class="card-text">Action, Sci-Fi</p>
+                     <a href="#" class="btn btn-outline-custom-card">Detail</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card" style="width: 223px;">
+               <div class="container">
+                  <img class="card-img-top" src="./assets/img/Black.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">Black Widow</h5>
+                     <p class="card-text">Action, Adventure, Sci-Fi</p>
+                     <a href="#" class="btn btn-outline-custom-card">Detail</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card" style="width: 223px;">
+               <div class="container">
+                  <img class="card-img-top" src="./assets/img/witches.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">The Witches</h5>
+                     <p class="card-text">Adventure,Comedy,Family</p>
+                     <a href="#" class="btn btn-outline-custom-card">Detail</a>
+                  </div>
+               </div>
+            </div> -->
+         <!-- </div> -->
+      </div>
+   </section>
+   <!-- AKhir upComing -->
+   <!-- Mulai subcribes -->
+   <section id="subcribes">
+      <div class="container">
+         <h2>Be the vanguard of the
+            <br><br><span class="font-primary">Moviegoers</span></h2>
+         <div class="form-email">
+            <form class="form-inline-custom">
+               <p>Type your email</p>
+            </form>
+            <button type="button" class="btn btn-custom-subscribes ">Join Now</button>
+         </div>
+         <p class="text-subcribes">By joining you as a Tickitz member,
+            <br>we will always send you the latest updates via email .</p>
+      </div>
+   </section>
+   <!-- Akhir Subcribes -->
+
+   <!-- Mulai Footer -->
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4">
+               <img src="./assets/img/logo2.png">
+               <p class="text-footer">Stop waiting in line. Buy tickets
+                  <br>conveniently, watch movies quietly.</p>
+            </div>
+            <div class="col-lg-2">
+               <p class="text-title">Explore</p>
+               <div class="explore">
+                  <p class="text-footer1">Cinemas</p>
+                  <p class="text-footer1">Movies List</p>
+                  <p class="text-footer1">My Ticket</p>
+                  <p class="text-footer1">Notification</p>
+               </div>
+
+            </div>
+            <div class="col-lg-3">
+               <p class="text-title">Our Sponsor</p>
+               <img class="img-footer" src="./assets/img/sponsor.png">
+               <img class="img-footer" src="./assets/img/sponsor1.png">
+               <img class="img-footer" src="./assets/img/sponsor2.png">
+            </div>
+            <div class="col-lg-3">
+               <p class="text-title">Follow Us</p>
+               <p class="text-footer2"><i class="fab fa-facebook-square" style="color:blue"></i> Tickitz Cinema id
+               </p>
+               <p class="text-footer2"><i class="fab fa-instagram " style="color:rgb(184, 104, 1)"></i> tickitz.id
+               </p>
+               <p class="text-footer2"><i class="fab fa-twitter" style="color:skyblue"></i> tickitz.id</p>
+               <p class="text-footer2"><i class="fab fa-youtube " style="color:red"></i> Tickitz Cinema id</p>
+            </div>
+         </div>
+         <p class="text-footer3">© 2020 Tickitz. All Rights Reserved.
+         </p>
+      </div>
+   </footer>
+   <!-- Akhir Footer -->
+
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+   </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+   </script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+   </script>
+</body>
+
+</html>

@@ -8,6 +8,10 @@ nav {
     background: white;
 }
 
+/* .navbar-toggler-icon {
+    background: url(/assets/img/Group.png);
+} */
+
 #btn-signUp {
     background: #5F2EEA;
     border-radius: 8px;
@@ -124,6 +128,10 @@ nav {
     padding-left: 90px;
 }
 
+.card-img-seat1 {
+    display: none;
+}
+
 .card-img-order {
     padding-top: 50px;
     padding-left: 100px;
@@ -199,10 +207,11 @@ nav {
     font-family: Mulish;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.75px;
     color: #14142B;
+    padding-right: 15px;
 }
 
 .pay {
@@ -223,7 +232,7 @@ nav {
 
 .sub-title-pay {
     padding-top: 13px;
-    padding-left: 150px;
+    padding-left: 140px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -286,12 +295,24 @@ footer {
     color: #6E7191;
 }
 
+.text-footer3 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #4E4B66;
+}
+
 .img-footer {
     padding-bottom: 30px;
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .form-inline {
         display: inline;
     }
@@ -301,7 +322,114 @@ footer {
     }
 
     .nav-item a {
-        margin-right: 10px;
+        margin-left: -40px;
     }
 
+    .img-user {
+        display: none;
+    }
+
+    .change-movie {
+        display: none;
+    }
+
+
+
+
+    .choose-seat {
+        /* display: none; */
+        margin-top: 50px;
+        height: 1500px;
+    }
+
+    .card-choose-seat {
+        height: 424px;
+        width: 327px;
+        margin-left: 30px;
+        border-radius: 16px;
+
+
+    }
+
+    .card-img-seat {
+        display: none;
+    }
+
+    .card-img-seat1 {
+        display: inline;
+        padding-top: 30px;
+    }
+
+    .text-title-order {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 34px;
+        letter-spacing: 0.75px;
+        color: #14142B;
+    }
+
+    .card-order-info {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+    /* footer */
+    footer {
+        height: 400px;
+        margin-top: 80px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .text-title {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        color: #000000;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .text-footer {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        color: #6E7191;
+    }
+
+    .explore {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .text-footer1 {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.75px;
+        color: #6E7191;
+    }
+
+    .text-footer3 {
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    .img-footer {
+        padding-right: 20px;
+        padding-bottom: 30px;
+        width: 30%;
+    }
 }
