@@ -1,4 +1,5 @@
-#Tickitz
+# Tickitz
+
 aplikasi tickitz merupakan sebuah aplikasi pemesanan ticket film berbasis websites
 
 1. Index Page : https://bookingtickitz.netlify.app/
