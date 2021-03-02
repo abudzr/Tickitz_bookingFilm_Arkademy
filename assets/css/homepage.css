@@ -34,9 +34,24 @@ nav {
     color: #414141;
 }
 
+/* icon */
 .form-inline {
     display: none;
+    position: relative;
 }
+
+.search-icon {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 15px;
+}
+
+/* .nav-item a {
+    border-bottom: 0.5px solid #DEDEDE;
+    width: 100%;
+} */
+
+
 
 
 
@@ -466,7 +481,17 @@ footer {
     padding-bottom: 30px;
 }
 
-
+.text-credit {
+    display: none;
+    margin-left: 70px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #6E7191;
+}
 
 @media only screen and (max-width: 600px) {
     .form-inline {
@@ -477,9 +502,59 @@ footer {
         display: none;
     }
 
+
+
+
     .nav-item a {
-        margin-left: -48px;
+        border-top: 0.5px solid #DEDEDE;
+
+        margin-top: 30px;
+        /* padding-top: 30px; */
+        text-align: center;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: #14142B !important;
+
     }
+
+    .dropdown {
+        margin-top: -245px;
+        text-align: center;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: #14142B;
+        height: 250px;
+    }
+
+    .dropdown-menu {
+        margin-top: -230px;
+        margin-left: 100px;
+
+    }
+
+    #btn-signUp {
+        display: none;
+    }
+
+    .text-credit {
+        display: inline;
+    }
+
+
+
+
+
+
 
     .jumbotron {
         height: 800px;
