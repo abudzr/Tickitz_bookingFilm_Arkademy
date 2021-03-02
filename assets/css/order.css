@@ -346,6 +346,7 @@ footer {
     line-height: 18px;
     letter-spacing: 0.5px;
     color: #6E7191;
+    margin-left: 20px;
 }
 
 .text-footer3 {
@@ -542,9 +543,23 @@ footer {
         color: #6E7191;
     }
 
+    .text-footer2 {
+        display: none;
+    }
+
     .text-footer3 {
         text-align: left;
         padding-bottom: 20px;
+    }
+
+    .follow-us {
+        display: flex;
+    }
+
+    .title-follow-us {
+        margin-top: 80px;
+        padding-right: 100px;
+        margin-left: -50px;
     }
 
     .img-footer {
