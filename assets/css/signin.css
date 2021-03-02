@@ -15,17 +15,8 @@ main section {
     flex-grow: 2;
     background: linear-gradient(rgba(43, 21, 107, 0.8),
             rgba(43, 21, 107, 0.8)), url('/assets/img/imgbg.jpg') no-repeat;
-    /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
-
-    /* background: 
-				linear-gradient(
-				  rgba(13, 110, 255, 0.7),
-				  rgba(255, 212, 14, 0.7)
-				),
-			    url('imgbg.jpg') no-repeat;
-			background-size: cover; */
 
 }
 
@@ -126,27 +117,47 @@ aside div.btn {
 }
 
 aside div.btn-google {
-    padding: 20px;
+    position: relative;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
     border-radius: 16px;
     margin-right: 20px;
+    height: 64px;
+    width: 182px;
+    border-radius: 4px;
+
 }
 
 aside div.btn-google img {
-    padding-right: 20px;
+    position: absolute;
+    padding-right: 50px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.text-btn {
+    position: absolute;
+    margin-bottom: 60px;
+    margin-left: 60px;
 }
 
 
 aside div.btn-fb {
-    padding: 20px;
+    position: relative;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
     border-radius: 16px;
+    margin-right: 20px;
+    height: 64px;
+    width: 182px;
+    border-radius: 4px;
 }
 
 aside div.btn-fb img {
-    padding-right: 20px;
+    position: absolute;
+    padding-right: 50px;
+    padding-left: 10px;
+    padding-top: 15px;
 }
 
 .form-group .form-control {
@@ -235,6 +246,38 @@ input {
     }
 
     aside .text2 {
+        display: none;
+    }
+
+    .form-group .form-control-icon {
+        margin-left: 270px;
+    }
+
+    aside div.btn-google {
+        height: 64px;
+        width: 64px;
+        left: 0px;
+        top: 0px;
+        border-radius: 12px;
+
+    }
+
+    aside div.btn-fb {
+        height: 64px;
+        width: 64px;
+        border-radius: 12px;
+    }
+
+    aside div.btn-google img {
+        padding-left: 17px;
+    }
+
+    aside div.btn-fb img {
+        padding-left: 17px;
+    }
+
+
+    .text-btn {
         display: none;
     }
 }

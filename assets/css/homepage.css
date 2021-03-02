@@ -30,12 +30,8 @@ nav {
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
-
     letter-spacing: 0.005em;
-
     color: #414141;
-
 }
 
 .form-inline {

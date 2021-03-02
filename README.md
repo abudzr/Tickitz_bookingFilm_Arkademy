@@ -1,4 +1,11 @@
-https://bookingtickitz.netlify.app/
+#Tickitz
+aplikasi tickitz merupakan sebuah aplikasi pemesanan ticket film berbasis websites
+
+1. Index Page : https://bookingtickitz.netlify.app/
+2. Home Page : https://bookingtickitz.netlify.app/home.html
+3. Movie Detail Page : https://bookingtickitz.netlify.app/movie.html
+4. Order Page : https://bookingtickitz.netlify.app/order.html
+5. Payment Page : https://bookingtickitz.netlify.app/payment.html
 
 ![home page](https://user-images.githubusercontent.com/68935056/109390162-828ccc80-7942-11eb-8c58-a530b224e4ae.PNG)
 ![Movie](https://user-images.githubusercontent.com/68935056/109390165-8ae50780-7942-11eb-8fbc-7201cf1677e8.PNG)
