@@ -453,10 +453,8 @@ footer {
     }
 
     .nav-item a {
-        border-top: 0.5px solid #DEDEDE;
-
-        margin-top: 30px;
-        /* padding-top: 30px; */
+        border-bottom: 0.5px solid #DEDEDE;
+        margin-bottom: 30px;
         text-align: center;
         font-family: Mulish;
         font-style: normal;
@@ -470,7 +468,6 @@ footer {
     }
 
     .dropdown {
-        margin-top: -245px;
         text-align: center;
         font-family: Mulish;
         font-style: normal;
@@ -480,13 +477,11 @@ footer {
         text-align: center;
         letter-spacing: 0.75px;
         color: #14142B;
-        height: 250px;
+        margin-bottom: 10px;
     }
 
     .dropdown-menu {
-        margin-top: -230px;
         margin-left: 100px;
-
     }
 
     .text-credit {
